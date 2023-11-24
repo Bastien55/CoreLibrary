@@ -4,6 +4,13 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>CoreLibrary-1</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>bbu.$(AssemblyName)</PackageId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.7.0" />
+  </ItemGroup>
 
 </Project>
